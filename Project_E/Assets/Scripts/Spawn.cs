@@ -2,15 +2,13 @@ using UnityEngine;
 
 public class Spawn : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public GameObject targetPrefab;
+    public Transform spawnPosition;
+
+    public void SpawnTarget()
     {
-        
+               Instantiate(targetPrefab, transform.position, Quaternion.identity);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }
