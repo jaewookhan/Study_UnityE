@@ -2235,7 +2235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cd5215918741b7439997d1db7364873, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UIManager
-  popupPrefab: {fileID: 0}
+  popupPrefab: {fileID: 7697700685011242859, guid: 4455511ac0f729b4da962e39d0f3e54e, type: 3}
   canvasTransform: {fileID: 1506121818}
   TitleText: Hello!
   ContentText: Work in Progress
